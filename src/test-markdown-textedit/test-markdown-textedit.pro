@@ -16,11 +16,11 @@ SOURCES += $$files(*.c*, true)
 # ui 文件
 FORMS += $$files(*.ui, true)
 
-# qmarkdown-textedit
-INCLUDEPATH += $$PWD/../qmarkdown-textedit
-LIBS += -L$$OUT_PWD/../qmarkdown-textedit$${OUT_TAIL}
-win32: LIBS += -lqmarkdown-textedit1
-else: LIBS += -lqmarkdown-textedit
+# markdown-textedit
+INCLUDEPATH += $$PWD/../markdown-textedit
+LIBS += -L$$OUT_PWD/../markdown-textedit$${OUT_TAIL}
+win32: LIBS += -lmarkdown-textedit1
+else: LIBS += -lmarkdown-textedit
 
 # nut
 INCLUDEPATH += $$PWD/../../3rdparty/nut.git/src
