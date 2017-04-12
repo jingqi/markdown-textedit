@@ -16,6 +16,10 @@ SOURCES += $$files(*.c*, true)
 # ui 文件
 FORMS += $$files(*.ui, true)
 
+# 资源文件
+RESOURCES += \
+    resources.qrc \
+
 # markdown-textedit
 INCLUDEPATH += $$PWD/../markdown-textedit
 LIBS += -L$$OUT_PWD/../markdown-textedit$${OUT_TAIL}

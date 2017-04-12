@@ -23,6 +23,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     _ui->setupUi(this);
     _ui->textEdit->load_style_from_stylesheet(":/markdown-textedit/theme/solarized-light+.txt");
+
+    // Load sample file
+    QFile f(":/sample.md");
+    f.open(QIODevice::ReadOnly | QIODevice::Text);
+    QString all = f.readAll();
+    _ui->textEdit->setPlainText(all);
 }
 
 MainWindow::~MainWindow()
