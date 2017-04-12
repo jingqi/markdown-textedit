@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>839</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">MarkdownTextEdit</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="organic::MarkdownTextEdit" name="textEdit">
+      <property name="plainText">
+       <string notr="true">
+标题1
+===
+
+标题2
+---
+
+# 标题一
+## 标题二
+### 标题三
+#### 标题四
+##### 标题五
+###### 标题六
+
+段落
+内容
+
+行尾加两个或更多空格强制   
+换行
+
+-&gt;居中&lt;-
+
+* 项目1
+* 项目2
+
++ 项目1
++ 项目2
+
+- 项目1
+- 项目2
+
+1. 项目1
+2. 项目2
+
+*强调* _强调_
+
+**粗体** __粗体__
+
+~~删除线~~
+
+SU^B
+
+术语
+: 定义
+
+&gt; 引用
+
+行内代码 `this is good`
+
+```python
+def f():
+	print &quot;abc&quot; + 2
+```
+
+图表
+
+```mermaid
+graph TD;
+	A--&gt;B;
+	A--&gt;C;
+	B--&gt;D;
+	C--&gt;D;
+```
+
+行内公式 \(y=asum_{k=1}^{infty}frac{1}{k^{2}}\)
+
+$$y=asum_{k=1}^{infty}frac{1}{k^{2}}$$
+
+|Table|A|B|
+|:---:|-:|:-|
+|表|格|中|
+
+[超链接](http://www.baidu.com)
+
+![图片](http://upload-images.jianshu.io/upload_images/259-90ac0f366310f464.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1070</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>organic::MarkdownTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>markdown-textedit/markdown_textedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

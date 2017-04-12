@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/markdown-textedit">
+        <file alias="align_center">resources/images/align_center.png</file>
+        <file alias="bold">resources/images/bold.png</file>
+        <file alias="code">resources/images/code.png</file>
+        <file alias="copy">resources/images/copy.png</file>
+        <file alias="cut">resources/images/cut.png</file>
+        <file alias="hyperlink">resources/images/hyperlink.png</file>
+        <file alias="insert_image">resources/images/insert_image.png</file>
+        <file alias="insert_table">resources/images/insert_table.png</file>
+        <file alias="italic">resources/images/italic.png</file>
+        <file alias="key_return">resources/images/key_return.png</file>
+        <file alias="paste">resources/images/paste.png</file>
+        <file alias="quote">resources/images/quote.png</file>
+        <file alias="redo">resources/images/redo.png</file>
+        <file alias="strikethrough">resources/images/strike_through.png</file>
+        <file alias="superscript">resources/images/superscript.png</file>
+        <file alias="undo">resources/images/undo.png</file>
+        <file alias="window-close">resources/images/window-close.svg</file>
+        <file alias="go-top">resources/images/go-top.svg</file>
+        <file alias="go-bottom">resources/images/go-bottom.svg</file>
+        <file alias="edit-find-replace">resources/images/edit-find-replace.svg</file>
+        <file alias="case_sensitive">resources/images/case_sensitive.png</file>
+    </qresource>
+    <qresource prefix="/markdown-textedit/theme">
+        <file alias="solarized-dark.txt">resources/themes/solarized-dark.txt</file>
+        <file alias="solarized-dark+.txt">resources/themes/solarized-dark+.txt</file>
+        <file alias="solarized-light.txt">resources/themes/solarized-light.txt</file>
+        <file alias="solarized-light+.txt">resources/themes/solarized-light+.txt</file>
+        <file alias="default.txt">resources/themes/default.txt</file>
+        <file alias="default+.txt">resources/themes/default+.txt</file>
+        <file alias="clearness-dark+.txt">resources/themes/clearness-dark+.txt</file>
+        <file alias="clearness-dark.txt">resources/themes/clearness-dark.txt</file>
+        <file alias="byword-dark.txt">resources/themes/byword-dark.txt</file>
+        <file alias="byword-dark+.txt">resources/themes/byword-dark+.txt</file>
+    </qresource>
+</RCC>
