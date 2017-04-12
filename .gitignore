@@ -1,7 +1,7 @@
 
 /out
 /tmp
-/build
+/build*
 
 Thumbs.db
 Makefile

@@ -22,6 +22,9 @@ LIBS += -L$$OUT_PWD/../qmarkdown-textedit$${OUT_TAIL}
 win32: LIBS += -lqmarkdown-textedit1
 else: LIBS += -lqmarkdown-textedit
 
+# nut
+INCLUDEPATH += $$PWD/../../3rdparty/nut.git/src
+
 # 资源打包
 mac {
     libs.path = Contents/Frameworks
