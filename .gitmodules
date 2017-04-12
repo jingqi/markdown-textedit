@@ -1,6 +1,3 @@
-[submodule "3rdparty/nut.git"]
-	path = 3rdparty/nut.git
-	url = https://github.com/jingqi/nut.git
 [submodule "3rdparty/peg-markdown-highlight.git"]
 	path = 3rdparty/peg-markdown-highlight.git
 	url = https://github.com/ali-rantakari/peg-markdown-highlight.git

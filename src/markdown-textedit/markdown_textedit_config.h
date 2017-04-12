@@ -2,12 +2,12 @@
 #ifndef ___HEADFILE_36D8237C_7495_4936_A8B0_4E3179C51884_
 #define ___HEADFILE_36D8237C_7495_4936_A8B0_4E3179C51884_
 
-#include <nut/platform/platform.h>
+#include <QtGlobal>
 
-#if defined(BUILDING_MARKDOWN_TEXTEDIT_DLL)
-#   define MDTE_API DLL_EXPORT
+#if defined(BUILDING_MARKDOWN_TEXTEDIT_SHARED_LIB)
+#   define MDTE_API Q_DECL_EXPORT
 #else
-#   define MDTE_API DLL_IMPORT
+#   define MDTE_API Q_DECL_IMPORT
 #endif
 
 #endif

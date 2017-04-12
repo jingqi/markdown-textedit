@@ -8,7 +8,7 @@ include(../global.pri)
 QT += core gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-DEFINES += BUILDING_MARKDOWN_TEXTEDIT_DLL
+DEFINES += BUILDING_MARKDOWN_TEXTEDIT_SHARED_LIB
 
 # 头文件
 HEADERS += $$files(*.h*, true)
@@ -29,6 +29,3 @@ LIBS += -L$$OUT_PWD/../pmh-adapter$${OUT_TAIL} -lpmh-adapter
 # peg-markdown-highlight
 INCLUDEPATH += $$PWD/../../3rdparty/peg-markdown-highlight.git
 LIBS += -L$$OUT_PWD/../peg-markdown-highlight$${OUT_TAIL} -lpmh
-
-# nut
-INCLUDEPATH += $$PWD/../../3rdparty/nut.git/src
