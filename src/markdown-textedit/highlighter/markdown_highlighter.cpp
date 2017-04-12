@@ -4,8 +4,15 @@
 #include <QTextDocument>
 #include <QTextLayout>
 
-#include <pmh_parser.h>
-#include <pmh-adapter/definitions.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+#   include <pmh_parser.h>
+#   include <pmh-adapter/definitions.h>
+#ifdef __cplusplus
+}
+#endif
 
 #include "markdown_highlighter.h"
 

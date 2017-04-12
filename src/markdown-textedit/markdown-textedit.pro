@@ -27,7 +27,7 @@ INCLUDEPATH += $$PWD/..
 LIBS += -L$$OUT_PWD/../pmh-adapter$${OUT_TAIL} -lpmh-adapter
 
 # peg-markdown-highlight
-INCLUDEPATH += $$PWD/../../3rdparty/peg-markdown-highlight
+INCLUDEPATH += $$PWD/../../3rdparty/peg-markdown-highlight.git
 LIBS += -L$$OUT_PWD/../peg-markdown-highlight$${OUT_TAIL} -lpmh
 
 # nut
