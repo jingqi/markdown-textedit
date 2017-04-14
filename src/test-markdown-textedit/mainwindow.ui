@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="organic::MarkdownTextEdit" name="textEdit">
+     <widget class="mdtextedit::MarkdownTextEdit" name="textEdit">
       <property name="plainText">
        <string notr="true"/>
       </property>
@@ -47,7 +47,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>organic::MarkdownTextEdit</class>
+   <class>mdtextedit::MarkdownTextEdit</class>
    <extends>QPlainTextEdit</extends>
    <header>markdown_textedit.h</header>
   </customwidget>

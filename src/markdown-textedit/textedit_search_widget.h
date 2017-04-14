@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2016 Patrizio Bekerle -- http://www.bekerle.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -24,7 +24,7 @@ namespace Ui
 class TextEditSearchWidget;
 }
 
-namespace organic
+namespace mdtextedit
 {
 
 class TextEditSearchWidget : public QWidget

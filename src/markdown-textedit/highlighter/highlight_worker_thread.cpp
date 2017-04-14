@@ -1,4 +1,4 @@
-
+﻿
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -9,7 +9,7 @@ extern "C" {
 
 #include "highlight_worker_thread.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 HighlightWorkerThread::HighlightWorkerThread(QObject *parent)

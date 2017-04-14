@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2016 Patrizio Bekerle -- http://www.bekerle.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "textedit_search_widget.h"
 #include "ui_textedit_search_widget.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 TextEditSearchWidget::TextEditSearchWidget(QPlainTextEdit *parent)

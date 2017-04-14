@@ -1,4 +1,4 @@
-
+﻿
 #ifndef ___HEADFILE_ABB9D205_6349_40DB_AB8A_29D2E8000DE6_
 #define ___HEADFILE_ABB9D205_6349_40DB_AB8A_29D2E8000DE6_
 
@@ -9,7 +9,7 @@
 
 #include "highlight_worker_thread.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 class MarkdownHighlighter : public QSyntaxHighlighter

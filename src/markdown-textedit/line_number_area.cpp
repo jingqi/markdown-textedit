@@ -1,9 +1,9 @@
-
+﻿
 #include "line_number_area.h"
 
 #include "markdown_textedit.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 LineNumberArea::LineNumberArea(MarkdownTextEdit *editor) :

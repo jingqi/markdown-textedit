@@ -1,4 +1,4 @@
-
+﻿
 #include <QDebug>
 #include <QFile>
 #include <QTextDocument>
@@ -18,7 +18,7 @@ extern "C" {
 
 using PegMarkdownHighlight::HighlightingStyle;
 
-namespace organic
+namespace mdtextedit
 {
 
 MarkdownHighlighter::MarkdownHighlighter(QTextDocument *document)

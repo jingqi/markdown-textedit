@@ -1,10 +1,10 @@
-
+﻿
 #ifndef ___HEADFILE_C2F68B4B_234B_4309_A132_9617DDC41119_
 #define ___HEADFILE_C2F68B4B_234B_4309_A132_9617DDC41119_
 
 #include <QWidget>
 
-namespace organic
+namespace mdtextedit
 {
 
 class MarkdownTextEdit;

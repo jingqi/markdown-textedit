@@ -7,7 +7,7 @@
 #include "markdown_textedit_config.h"
 #include "textedit_search_widget.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 class MarkdownHighlighter;

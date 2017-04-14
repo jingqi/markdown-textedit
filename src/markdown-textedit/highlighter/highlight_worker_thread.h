@@ -1,4 +1,4 @@
-
+﻿
 #ifndef ___HEADFILE_2D0FD370_132C_49EA_ACE1_D0A506433D2A_
 #define ___HEADFILE_2D0FD370_132C_49EA_ACE1_D0A506433D2A_
 
@@ -9,7 +9,7 @@
 
 #include <pmh_definitions.h>
 
-namespace organic
+namespace mdtextedit
 {
 
 struct Task

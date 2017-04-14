@@ -25,7 +25,7 @@
 #include "highlighter/markdown_highlighter.h"
 #include "line_number_area.h"
 
-namespace organic
+namespace mdtextedit
 {
 
 MarkdownTextEdit::MarkdownTextEdit(QWidget *parent)
